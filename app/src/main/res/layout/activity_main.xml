@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
 
     <com.baidu.mapapi.map.MapView
         android:id="@+id/bmapview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="true" />
-</LinearLayout>
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/btn_dui"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="别怂，怼他"
+        android:textColor="#00FF00"/>
+</RelativeLayout>
